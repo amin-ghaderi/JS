@@ -18,3 +18,5 @@ for (let format of imageFormats) {
 
     ulElement.append(liElement);
 }
+
+targetElement.append(ulElement);
