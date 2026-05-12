@@ -6,3 +6,15 @@ const imageFormats = [
 ];
 
 let targetElement = document.querySelector("div");
+
+let ulElement = document.createElement("ul");
+
+
+for (let format of imageFormats) {
+
+    let liElement = document.createElement("li");
+
+    liElement.append(format);
+
+    ulElement.append(liElement);
+}
