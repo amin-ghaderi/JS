@@ -4,3 +4,5 @@ const imageFormats = [
     "Sometimes, an image format defines its own container.",
     "PNG, JPEG, and JPEG XL include the layout as part of the file format specification."
 ];
+
+let targetElement = document.querySelector("div");
