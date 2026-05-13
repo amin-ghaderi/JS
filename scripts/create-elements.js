@@ -25,3 +25,19 @@ let ulElement =
 }*/
 
 targetElement.append(ulElement);
+
+let currentIndex = 0;
+
+buttonElement.addEventListener("click", () => {
+
+    let liElement =
+    document.createElement("li");
+
+    liElement.append(
+        imageFormats[currentIndex]
+    );
+
+    ulElement.append(liElement);
+
+    currentIndex++;
+});
