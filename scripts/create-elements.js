@@ -5,18 +5,23 @@ const imageFormats = [
     "PNG, JPEG, and JPEG XL include the layout as part of the file format specification."
 ];
 
-let targetElement = document.querySelector("div");
+let targetElement =
+    document.querySelector("div");
 
-let ulElement = document.createElement("ul");
+let buttonElement =
+    document.querySelector("#add-item-button");
+
+let ulElement =
+    document.createElement("ul");
 
 
-for (let format of imageFormats) {
+/*for (let format of imageFormats) {
 
     let liElement = document.createElement("li");
 
     liElement.append(format);
 
     ulElement.append(liElement);
-}
+}*/
 
 targetElement.append(ulElement);
