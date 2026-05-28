@@ -20,12 +20,29 @@ function UseStateExercise() {
 
   return (
     <main className="page">
-      <h1>useState Exercise</h1>
+      <header className="hero">
+        <p className="brand">Amin CV</p>
+        <h1 className="hero-title">Amin Cal</h1>
+        <p className="hero-subtitle">React useState Exercise</p>
+        <p className="hero-description">
+          Simple state management practice using React.
+        </p>
+      </header>
 
       <InterestCalculator />
 
       <section className="card">
         <h2>Show Details</h2>
+
+        {selected && (
+          <div className="selected-box">
+            <p className="selected-title">Selected item</p>
+            <p className="selected-value">
+              Index: <strong>{selected.index}</strong> —{" "}
+              <strong>{selected.text}</strong>
+            </p>
+          </div>
+        )}
 
         <DetailsList items={details} onSelect={setSelected} />
 
@@ -35,16 +52,6 @@ function UseStateExercise() {
             disabled={selected === null}
           />
         </div>
-
-        {selected && (
-          <div className="selected">
-            <p className="muted">Selected item:</p>
-            <p>
-              Index: <strong>{selected.index}</strong> -{" "}
-              <strong>{selected.text}</strong>
-            </p>
-          </div>
-        )}
       </section>
     </main>
   );
