@@ -21,7 +21,6 @@ function UseStateExercise() {
   return (
     <main className="page">
       <header className="hero">
-        <p className="brand">Amin CV</p>
         <h1 className="hero-title">Amin Cal</h1>
         <p className="hero-subtitle">React useState Exercise</p>
         <p className="hero-description">
