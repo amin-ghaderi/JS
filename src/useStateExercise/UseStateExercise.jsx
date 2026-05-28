@@ -22,10 +22,6 @@ function UseStateExercise() {
     <main className="page">
       <header className="hero">
         <h1 className="hero-title">Amin Cal</h1>
-        <p className="hero-subtitle">React useState Exercise</p>
-        <p className="hero-description">
-          Simple state management practice using React.
-        </p>
       </header>
 
       <InterestCalculator />
