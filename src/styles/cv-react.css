@@ -34,6 +34,42 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.cv-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cv-nav a {
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.cv-nav a:hover {
+  color: #111827;
+}
+
+.cv-nav a.active {
+  color: #111827;
+  font-weight: 700;
+}
+
+.cv-footer {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
 .hero-name {
   font-size: clamp(1.75rem, 4vw, 2.25rem);
   font-weight: 700;
