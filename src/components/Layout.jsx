@@ -18,6 +18,13 @@ function Layout() {
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/sociallinks">Social Links</NavLink>
         <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/updatestate">Update State</NavLink>
+        <NavLink to="/updatestate/simple-object">Simple Object</NavLink>
+        <NavLink to="/updatestate/array-objects">Array Objects</NavLink>
+        <NavLink to="/updatestate/nested-array">Nested Array</NavLink>
+        <NavLink to="/updatestate/nested-object-array">
+          Nested Object Array
+        </NavLink>
       </nav>
 
       <Outlet />
