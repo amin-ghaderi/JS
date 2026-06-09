@@ -1,0 +1,66 @@
+.update-state-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.update-state-title {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.exercise-section {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff;
+}
+
+.exercise-section h2 {
+  margin: 0 0 1rem;
+  font-size: 1.125rem;
+  color: #374151;
+}
+
+.exercise-section h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.exercise-section p {
+  margin: 0.25rem 0;
+}
+
+.exercise-section ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.exercise-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  background-color: #f9fafb;
+}
+
+.exercise-buttons {
+  margin-top: 1rem;
+}
+
+.exercise-buttons button {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  background-color: #f3f4f6;
+  color: #111827;
+  cursor: pointer;
+}
+
+.exercise-buttons button:hover {
+  background-color: #e5e7eb;
+}

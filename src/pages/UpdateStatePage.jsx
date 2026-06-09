@@ -1,26 +1,20 @@
-import { Link } from "react-router-dom";
+import "../updateStateExercise/updateStateExercise.css";
+
+import UpdateSimpleObject from "../updateStateExercise/UpdateSimpleObject.jsx";
+import UpdateArrayObjects from "../updateStateExercise/UpdateArrayObjects.jsx";
+import UpdateNestedArray from "../updateStateExercise/UpdateNestedArray.jsx";
+import UpdateNestedObjectArray from "../updateStateExercise/UpdateNestedObjectArray.jsx";
 
 function UpdateStatePage() {
   return (
-    <section className="cv-section">
-      <h2 className="section-title">Update State Exercise</h2>
-      <ul>
-        <li>
-          <Link to="/updatestate/simple-object">Simple Object</Link>
-        </li>
-        <li>
-          <Link to="/updatestate/array-objects">Array Objects</Link>
-        </li>
-        <li>
-          <Link to="/updatestate/nested-array">Nested Array</Link>
-        </li>
-        <li>
-          <Link to="/updatestate/nested-object-array">
-            Nested Object Array
-          </Link>
-        </li>
-      </ul>
-    </section>
+    <div className="update-state-page">
+      <h1 className="update-state-title">React – Update State</h1>
+
+      <UpdateSimpleObject />
+      <UpdateArrayObjects />
+      <UpdateNestedArray />
+      <UpdateNestedObjectArray />
+    </div>
   );
 }
 
